@@ -1,0 +1,28 @@
+# ==========================================
+# REGRAS DE SEGURANÇA (DADOS)
+# ==========================================
+# Ignorar todas as pastas de dados (Raw, Silver, Gold, etc)
+data/
+dataset/
+*.csv
+*.json
+*.xlsx
+
+# ==========================================
+# AMBIENTE PYTHON E JUPYTER
+# ==========================================
+# Ignorar ambientes virtuais
+.venv/
+venv/
+env/
+
+# Ignorar arquivos temporários e cache do código
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ==========================================
+# SISTEMA OPERACIONAL
+# ==========================================
+.DS_Store
+Thumbs.db
